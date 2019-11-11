@@ -1,0 +1,19 @@
+.header{
+    padding:1rem;
+    background-color: #1462af;
+    color: white;
+}
+.question{
+    padding:0.5rem;
+    background-color: #e2eff8;
+    color: hsl(209, 98%, 25%);
+    border-radius: 0.5rem;
+} 
+.footer{
+    padding:0.25rem;
+    background-color: #1462af;
+    color: white;
+}
+.card{
+    border:none;
+}
