@@ -1,17 +1,19 @@
 const questions = [{
-        question: "Basically sound waves are?",
+        question: "what is the formula for distance?",
         options: [
-            "Voltage signals",
-            "Pressure waves",
-            "Current",
-            "Radiation"
+            "Speed/time",
+            "Speed*time",
+            "time/speed",
+            "speed+time"
         ]
     },
     {
-        question: "Sound waves are similar to light waves in all aspects?",
+        question: "How is distance calculated in ultrasonic sensor?",
         options: [
-            "False",
-            "True",
+            "d*2",
+            "d<sup>2</sup>",
+            "d/2",
+            "d<sup>2</sup>/2",
         ]
     },
     {
@@ -54,12 +56,14 @@ const questions = [{
         ]
     },
     {
-        question: "How many digital and analog pins are there in Arduino UNO board?",
+        question: "what is the header file used for Adafruit motor shield ?",
         options: [
-            "13&6",
-            "14&5",
-            "13&5",
-            "14&6",
+            '#include<AFMotor.h>',
+            '#include<AFmotor.h>',
+
+            '#include<AF-Motor.h>' ,
+            '#include<AF-motor.h>'                                                          
+            
         ]
     },
     {
@@ -72,12 +76,12 @@ const questions = [{
         ]
     },
     {
-        question: "Name the input power supply connector for Arduino UNO board?",
+        question: "find the next number 1,3,2,6,3,11,4,18,5,__",
         options: [
-            "USB",
-            "DC Barrel Jack",
-            "Both A & B",
-            "None",
+            "27",
+            "25",
+            "23",
+            "29",
         ]
     },
     {
@@ -105,19 +109,21 @@ const questions = [{
         ]
     },
     {
-        question: "The Ultrasonic sensor uses the sonar to determine?",
+        question: "find the next number in the series 1,3,2,9,4,27,8,81,16,__",
         options: [
-            "Speed",
-            "Velocity",
-            "Distance",
-            "Temperature",
+            "157",
+            "243",
+            "81",
+            "27",
         ]
     },
     {
-        question: "What is the function of TRIG pin in Ultrasonic sensor?",
+        question: "How many data pins are available in Adafruit motor shield?",
         options: [
-            'Transmits high frequency sound', 'Receives high frequency sound',
-            'Spreads high frequency sound', 'Circulate high frequency sound'
+            '0-13', 
+            '0-10',
+            '0-5', 
+            '0-9'
         ]
     },
     {
@@ -143,9 +149,12 @@ const questions = [{
         ]
     },
     {
-        question: "Which function reads the HIGH or LOW value from specified INPUT pin?",
+        question: "Find the odd one out for sensor = ?",
         options: [
-            'ananlogWrite()' , 'analogRead()' ,'digitalWrite()','digitalRead()' 
+            'detector' , 
+            'transducer' ,
+            'camera',
+            'controller' 
         ]
     },
     {
@@ -172,12 +181,12 @@ const questions = [{
         ]
     },
     {
-        question: "What is the operation of Void Loop() ?",
+        question: "pick the odd one out  for actuator =?",
         options: [
-            'Execute statements once',
-           
-             'Both a & b', 'None',
-             'Execute statements multiple'
+            'lever',
+             'motor', 
+             'feeler',
+             'loudspeaker'
         ]
     },
     {
@@ -190,12 +199,12 @@ const questions = [{
         ]
     },
     {
-        question: "Which operator increments value of a variable before using it in a expression?",
+        question: "What is the range of motor set speed?",
         options: [
-            "pre-increment",
-            "post-increment",
-            "pre-decrement",
-            "post-decrement",
+            "0-1023",
+            "0-255",
+            "0-1024",
+            "0-100",
         ]
     },
     {
