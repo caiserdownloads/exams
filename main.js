@@ -58,11 +58,11 @@ const questions = [{
     {
         question: "what is the header file used for Adafruit motor shield ?",
         options: [
-            '#include<AFMotor.h>',
-            '#include<AFmotor.h>',
+            '#include &lt AFMotor.h &gt',
+            '#include &lt AFmotor.h &gt',
 
-            '#include<AF-Motor.h>' ,
-            '#include<AF-motor.h>'                                                          
+            '#include &lt AF-Motor.h &gt' ,
+            '#include &lt AF-motor.h &gt'                                                          
             
         ]
     },
