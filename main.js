@@ -1,7 +1,4 @@
-window.addEventListener('beforeunload', function (e) { 
-    e.preventDefault(); 
-    e.returnValue = ''; 
-});
+
 const questions = [{
         question: "what is the formula for distance?",
         options: [
